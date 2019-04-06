@@ -1,11 +1,15 @@
 package leetCode.Easy;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
 
 	public static void main(String[] args) {
-		DeleteColumnsToMakeSorted del = new DeleteColumnsToMakeSorted();
-		String[] x = {"zyx","wvu","tsr"};
-		System.out.println(del.minDeletionSize(x));
+		
+		SelfDividingNumbers selfDivid = new SelfDividingNumbers();
+		List<Integer> list = selfDivid.selfDividingNumbers(1, 22);
+		System.out.println(Arrays.toString(list.toArray()));
 
 	}
 
