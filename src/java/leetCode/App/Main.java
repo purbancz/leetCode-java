@@ -1,4 +1,6 @@
-package leetCode.Easy;
+package java.leetCode.App;
+
+import java.leetCode.Easy.ArrayPartitionI;
 
 public class Main {
 
