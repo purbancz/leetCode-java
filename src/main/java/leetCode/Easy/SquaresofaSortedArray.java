@@ -1,4 +1,4 @@
-package java.leetCode.Easy;
+package main.java.leetCode.Easy;
 
 public class SquaresofaSortedArray {
     public int[] sortedSquares(int[] A) {

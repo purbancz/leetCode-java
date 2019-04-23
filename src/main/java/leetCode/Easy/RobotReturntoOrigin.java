@@ -1,4 +1,4 @@
-package java.leetCode.Easy;
+package main.java.leetCode.Easy;
 
 public class RobotReturntoOrigin {
 	public static boolean judgeCircle(String moves) {

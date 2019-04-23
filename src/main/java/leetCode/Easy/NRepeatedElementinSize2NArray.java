@@ -1,4 +1,4 @@
-package java.leetCode.Easy;
+package main.java.leetCode.Easy;
 
 public class NRepeatedElementinSize2NArray {
 	public static int repeatedNTimes(int[] A) {

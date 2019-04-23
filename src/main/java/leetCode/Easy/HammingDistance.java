@@ -1,4 +1,4 @@
-package java.leetCode.Easy;
+package main.java.leetCode.Easy;
 
 public class HammingDistance {
 	public int hammingDistance(int x, int y) {
