@@ -1,11 +1,9 @@
 package main.java.leetCode.Easy;
 
-import java.util.ArrayList;
-
 public class RemoveOutermostParentheses {
 
 	public String removeOuterParentheses(String S) {
-		ArrayList<String> arrString = new ArrayList<String>();
+		StringBuilder sb = new StringBuilder();
 		int left = 0;
 		int right = 0;
 		int end = 0;
@@ -17,15 +15,11 @@ public class RemoveOutermostParentheses {
 				right++;
 			}
 			if (left != 0 && left == right) {
-				arrString.add(S.substring(end + 1, i));
+				sb.append(S.substring(end + 1, i));
 				end = i+1;
 			}
 		}
-		String result = "";
-		for (String s : arrString) {
-			result += s;
-		}
-		return result;
+		return sb.toString();
 	}
 
 }

@@ -10,7 +10,7 @@ public class Main {
 		
 		
 		
-		String str = "()()";
+		String str = "(()())(())";
 		System.out.println(object.removeOuterParentheses(str));
 		System.out.println("koniec");
 		
